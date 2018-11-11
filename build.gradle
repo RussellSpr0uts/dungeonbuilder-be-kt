@@ -53,11 +53,6 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
-buildScan {
-    licenseAgreementUrl = "https://gradle.com/terms-of-service"
-    licenseAgree = "yes"
-}
-
 springBoot {
     executable = true
 }
