@@ -57,3 +57,11 @@ buildScan {
     licenseAgreementUrl = "https://gradle.com/terms-of-service"
     licenseAgree = "yes"
 }
+
+springBoot {
+    executable = true
+}
+jar{
+    baseName = 'myapp'
+    version = 'version'
+}
