@@ -1,2 +1,1 @@
 rootProject.name = 'dungeonbuilder'
-org.gradle.daemon=false
